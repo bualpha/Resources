@@ -1,12 +1,29 @@
 # Resources
 
-| Resource  | Description  |
+*Last updated September 21, 2023.*
+
+| General  | Description  |
 |---|---|
 | [Dimitri Bianco](https://www.youtube.com/@DimitriBianco)  |  YouTube channel talking about his journey getting a job in quant. He shares various resources, advices, and stories.|
 | [Reddit AMA](https://www.reddit.com/r/csMajors/comments/15dsg7u/ama_how_i_landed_offers_in_quant/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) | Ask Me Anything - a quant answering questions about their interview process, career, and background. |
 | Various pages on GitHub for internships | Google "quant internship <year> github" and you will see various pages on opportunities. This works for SWE and Data Science jobs as well. |
-| [Statquest](https://www.youtube.com/@statquest) | One of the best educational YouTube channel on learning statistics, data science, and machine learning. |
 | [PyQuant News](https://twitter.com/pyquantnews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) | Twitter page dedicated to beginners in Quant. Offers advices and introductions to state-of-the-art tools. |
+
+-----------
+
+| Interview Prep  | Description  |
+|---|---|
+| [LeetCode Blind75](https://leetcode.com/studyplan/leetcode-75/)  |  Beginner LeetCode questions for coding interviews or online assessments. Blind 75 is a good way to get started. |
+| [QuantGuide](https://www.quantguide.io/)  |  Practicing quant interview questions. Similar to LeetCode. |
+| [ZetaMac](https://arithmetic.zetamac.com/) |  Fast paced arithmetic drills. Firms like Optiver has this as part of their interview process. |
+
+-----------
+
+| Educational | Description  |
+|---|---|
+| [Statquest](https://www.youtube.com/@statquest) | One of the best educational YouTube channel on learning statistics, data science, and machine learning. |
+
+*Note: Feel free to look around the GitHub page. There are various resources from past years as well.*
 
 ## Contributions
 
