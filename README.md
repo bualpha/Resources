@@ -1,6 +1,6 @@
 # Resources
 
-*Last updated September 21, 2023.*
+*Last updated September 22, 2023.*
 
 | General  | Description  |
 |---|---|
@@ -13,9 +13,10 @@
 
 | Interview Prep  | Description  |
 |---|---|
-| [LeetCode Blind75](https://leetcode.com/studyplan/leetcode-75/)  |  Beginner LeetCode questions for coding interviews or online assessments. Blind 75 is a good way to get started. |
+| [LeetCode Blind75](https://leetcode.com/studyplan/leetcode-75/)  |  Beginner LeetCode questions for coding interviews or online assessments. Blind 75 is a good way to get started and covers a variety of topics. |
 | [QuantGuide](https://www.quantguide.io/)  |  Practicing quant interview questions. Similar to LeetCode. |
 | [ZetaMac](https://arithmetic.zetamac.com/) |  Fast paced arithmetic drills. Firms like Optiver has this as part of their interview process. |
+| [StrataScratch](https://www.stratascratch.com/) | Learn and practice SQL questions. Real interview questions from F500 companies |
 
 -----------
 
