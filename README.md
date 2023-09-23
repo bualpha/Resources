@@ -17,6 +17,8 @@
 | [QuantGuide](https://www.quantguide.io/)  |  Practicing quant interview questions. Similar to LeetCode. |
 | [ZetaMac](https://arithmetic.zetamac.com/) |  Fast paced arithmetic drills. Firms like Optiver has this as part of their interview process. |
 | [StrataScratch](https://www.stratascratch.com/) | Learn and practice SQL questions. Real interview questions from F500 companies |
+| [Green Book](https://www.amazon.com/dp/1438236662/ref=cm_sw_r_api_i_80SV9J86HWJWXQH65YRZ_0?_encoding=UTF8&psc=1) | Book for quant-style interview questions. Often referred to as "Green Book". |
+| [Ace the Data Science Interview](https://www.acethedatascienceinterview.com/) | Book for data science interview prep. Has relevant resources for quant interviews as well. |
 
 -----------
 
