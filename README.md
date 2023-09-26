@@ -1,6 +1,6 @@
 # Resources
 
-*Last updated September 22, 2023.*
+*Last updated September 26, 2023.*
 
 | General  | Description  |
 |---|---|
@@ -25,6 +25,7 @@
 | Educational | Description  |
 |---|---|
 | [Statquest](https://www.youtube.com/@statquest) | One of the best educational YouTube channel on learning statistics, data science, and machine learning. |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | A free, online, self-paced course from MIT. Teaches the terminal, bash, git, and other miscellaneous things that you typically don't learn in school, but can be useful to know prior to your tech/quant internships. |
 
 *Note: Feel free to look around the GitHub page. There are various resources from past years as well.*
 
@@ -49,7 +50,7 @@ If you had already forked and cloned the repo, `git pull` to update your local r
 Once you `git push`, you may submit a pull request (PR) via the [GitHub repo](https://github.com/bualpha/Resources/pulls).
 
 ### Contributing via Google Sheets
-If you wish to contribute via Google Sheets, you may submit them [here](https://docs.google.com/spreadsheets/d/1DZ_eQggYaL3cwHTE5JXdoScSwsJwRcD-6xaHrFzCG0A/edit?usp=sharing) using you BU email.
+If you wish to contribute via Google Sheets, you may submit them [here](https://docs.google.com/spreadsheets/d/1DZ_eQggYaL3cwHTE5JXdoScSwsJwRcD-6xaHrFzCG0A/edit?usp=sharing) using you BU email. This is checked occasionally.
 
 ### Issues
 If you spot a problem with the resources, search if an issue already exists. If not, you can open a new issue.
