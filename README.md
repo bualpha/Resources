@@ -49,8 +49,8 @@ If you had already forked and cloned the repo, `git pull` to update your local r
 **4. Push to your GitHub repo and submit pull request** \
 Once you `git push`, you may submit a pull request (PR) via the [GitHub repo](https://github.com/bualpha/Resources/pulls).
 
-### Contributing via Google Sheets
-If you wish to contribute via Google Sheets, you may submit them [here](https://docs.google.com/spreadsheets/d/1DZ_eQggYaL3cwHTE5JXdoScSwsJwRcD-6xaHrFzCG0A/edit?usp=sharing) using you BU email. This is checked occasionally.
+### Contributing via Issues
+You may submit resources or anything you find useful via GitHub issues. Please follow the template above and use the example issue as a guide.
 
-### Issues
-If you spot a problem with the resources, search if an issue already exists. If not, you can open a new issue.
+## Issues
+If you spot a problem with the resources (i.e. outdated, bad link, etc.), please open a new issue and label it as either `bug` or `invalid`.
