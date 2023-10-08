@@ -31,6 +31,30 @@
 
 *Note: Feel free to look around the GitHub page. There are various resources from past years as well.*
 
+## Recommended Courses
+
+Here are some upper level courses to take at BU.
+
+**Math and Statistics**
+* MA415 Data Science in R
+* MA416 Analysis of Variance
+* MA575 Linear Models
+* MA577 Mathematics of Financial Derivatives
+* MA585 Time Series and Forecasting
+
+**Computer Science**
+* CS541 Applied Machine Learning
+* CS542 Principles of Machine Learning
+
+**Economics and Questrom**
+* EC445 Economics of Risk and Uncertainty
+* FE459 Computational Techniques for Finance
+* Any course on econometrics
+
+**Miscellaneous**
+* MET AD587 / PY538 Interdisciplinary Methods for Quantitative Finance
+* PY541 Statistical Mechanics
+
 ## Contributions
 
 You must use the same format as previously added resources.
