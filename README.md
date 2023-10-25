@@ -1,6 +1,6 @@
 # Resources
 
-*Last resource added: Oct 1, 2023.*
+*Last resource added: Oct 25, 2023.*
 
 | General  | Description  |
 |---|---|
@@ -19,6 +19,7 @@
 | [StrataScratch](https://www.stratascratch.com/) | Learn and practice SQL questions. Real interview questions from F500 companies |
 | [Green Book](https://www.amazon.com/dp/1438236662/ref=cm_sw_r_api_i_80SV9J86HWJWXQH65YRZ_0?_encoding=UTF8&psc=1) | Book for quant-style interview questions. Often referred to as "Green Book". |
 | [Ace the Data Science Interview](https://www.acethedatascienceinterview.com/) | Book for data science interview prep. Has relevant resources for quant interviews as well. |
+| [LaTeX Resume Format](https://www.overleaf.com/gallery/tagged/cv) | Pick minimal LaTeX formats. Consistent formatting is a lot easier on LaTeX. |
 
 -----------
 
