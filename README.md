@@ -41,9 +41,11 @@ Here are some upper level courses to take at BU.
 * MA416 Analysis of Variance
 * MA575 Linear Models
 * MA577 Mathematics of Financial Derivatives
+* MA583 Introduction to Stochastic Processes
 * MA585 Time Series and Forecasting
 
 **Computer Science**
+* CS506 Data Science Tools and Applications
 * CS541 Applied Machine Learning
 * CS542 Principles of Machine Learning
 
