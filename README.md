@@ -1,6 +1,6 @@
 # Resources
 
-*Last resource added: Oct 25, 2023.*
+*Last resource added: Oct 31, 2023.*
 
 | General  | Description  |
 |---|---|
@@ -43,6 +43,7 @@ Here are some upper level courses to take at BU.
 * MA577 Mathematics of Financial Derivatives
 * MA583 Introduction to Stochastic Processes
 * MA585 Time Series and Forecasting
+* MA751 Statistical Machine Learning
 
 **Computer Science**
 * CS506 Data Science Tools and Applications
