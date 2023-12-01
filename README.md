@@ -1,6 +1,6 @@
 # Resources
 
-*Last resource added: Oct 31, 2023.*
+*Last resource added: Dec 1, 2023.*
 
 | General  | Description  |
 |---|---|
@@ -13,9 +13,10 @@
 
 | Interview Prep  | Description  |
 |---|---|
-| [LeetCode Blind75](https://leetcode.com/studyplan/leetcode-75/)  |  Beginner LeetCode questions for coding interviews or online assessments. Blind 75 is a good way to get started and covers a variety of topics. |
-| [QuantGuide](https://www.quantguide.io/)  |  Practicing quant interview questions. Similar to LeetCode. |
-| [ZetaMac](https://arithmetic.zetamac.com/) |  Fast paced arithmetic drills. Firms like Optiver has this as part of their interview process. |
+| [LeetCode Blind75](https://leetcode.com/studyplan/leetcode-75/)  | Beginner LeetCode questions for coding interviews or online assessments. Blind 75 is a good way to get started and covers a variety of topics. |
+| [NeetCode](https://neetcode.io/)  | Another LeetCode prep. [NeetCode YouTube](https://www.youtube.com/c/neetcode) explaining variety of problems and topics. |
+| [QuantGuide](https://www.quantguide.io/)  | Practicing quant interview questions. Similar to LeetCode. |
+| [ZetaMac](https://arithmetic.zetamac.com/) | Fast paced arithmetic drills. Firms like Optiver has this as part of their interview process. |
 | [StrataScratch](https://www.stratascratch.com/) | Learn and practice SQL questions. Real interview questions from F500 companies |
 | [Green Book](https://www.amazon.com/dp/1438236662/ref=cm_sw_r_api_i_80SV9J86HWJWXQH65YRZ_0?_encoding=UTF8&psc=1) | Book for quant-style interview questions. Often referred to as "Green Book". |
 | [Ace the Data Science Interview](https://www.acethedatascienceinterview.com/) | Book for data science interview prep. Has relevant resources for quant interviews as well. |
