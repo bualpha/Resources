@@ -8,6 +8,7 @@
 | [Reddit AMA](https://www.reddit.com/r/csMajors/comments/15dsg7u/ama_how_i_landed_offers_in_quant/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) | Ask Me Anything - a quant answering questions about their interview process, career, and background. |
 | Various pages on GitHub for internships | Google "quant internship <year> github" and you will see various pages on opportunities. This works for SWE and Data Science jobs as well. |
 | [PyQuant News](https://twitter.com/pyquantnews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) | Twitter page dedicated to beginners in Quant. Offers advices and introductions to state-of-the-art tools. |
+| [How The Economic Machine Works](https://www.youtube.com/watch?v=PHe0bXAIuk0) | A YouTube video about how the economy works. Well explained by Ray Dalio. |
 
 -----------
 
