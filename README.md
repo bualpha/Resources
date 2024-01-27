@@ -68,19 +68,6 @@ You must use the same format as previously added resources.
 `Resource` - Short name of resource, with embedded link \
 `Description` - Short description of resource, what it can be used for
 
-### Contributing via Git
-**1. Fork the repo** \
-The new repo should now be named `{YourUserName} / Resources`.
-
-**2. Clone the repo** \
-```git clone https://github.com/bualpha/Resources.git```
-
-**3. Edit, stage, commit** \
-If you had already forked and cloned the repo, `git pull` to update your local repository with new changes before adding your own changes. Stage your edits with `git add Resources.md` and commit your edits using `git commit -m "<commit message>"`.
-
-**4. Push to your GitHub repo and submit pull request** \
-Once you `git push`, you may submit a pull request (PR) via the [GitHub repo](https://github.com/bualpha/Resources/pulls).
-
 ### Contributing via Issues
 You may submit resources or anything you find useful via GitHub issues. Please follow the template above and use the example issue as a guide.
 
