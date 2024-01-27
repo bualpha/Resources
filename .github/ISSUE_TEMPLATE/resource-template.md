@@ -1,9 +1,9 @@
 ---
 name: Resource Template
 about: Contributing resources via issues
-title: ''
-labels: ''
-assignees: ''
+title: Type of Resource
+labels: resource
+assignees: Current VP
 
 ---
 
