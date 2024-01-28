@@ -1,7 +1,7 @@
 ---
 name: Resource Template
 about: Contributing resources via issues
-title: Type of Resource
+title: Enter type of resource here (General, Interview, etc.)
 labels: resource
 assignees: Current VP
 
@@ -17,4 +17,3 @@ General
 
 Assignees: the current VP
 
-Note: Please assign the label `resource` to issues under **Labels** on the right
