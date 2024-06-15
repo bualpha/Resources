@@ -1,0 +1,34 @@
+name: Generate Resume Template PDF
+
+on:
+  push:
+    paths:
+      - resume_template.tex
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up TeX Live
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: resume_template.tex
+        latexmk_use_xelatex: true  # or set to true if you are using xelatex
+
+    - name: Compile LaTeX document
+      run: latexmk -pdf resume.tex
+
+    - name: Commit and push generated PDF
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add resume_template.pdf
+        git commit -m 'Generate resume_template.pdf'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
