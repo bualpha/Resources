@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - resume/resume_template.tex
-  workflow_dispatch: # This allows the workflow to be manually triggered
+  workflow_dispatch:  # This allows the workflow to be manually triggered
 
 jobs:
   build:
@@ -14,11 +14,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up TeX Live
+    - name: Set up LaTeX environment
       uses: xu-cheng/latex-action@v2
       with:
         root_file: resume/resume_template.tex
-	latexmk_use_xelatex: true
+        latexmk_use_xelatex: true  # This uses xelatex; adjust as needed for your document
 
     - name: Compile LaTeX document
       run: latexmk -pdf -outdir=resume resume/resume_template.tex
@@ -32,4 +32,3 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
