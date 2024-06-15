@@ -13,12 +13,14 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      
+    - name: Install TeX Live
+      run: sudo apt-get update && sudo apt-get install -y texlive-full
 
     - name: Set up LaTeX environment
       uses: xu-cheng/latex-action@v2
       with:
         root_file: resume/resume_template.tex
-        latexmk_use_xelatex: true  # This uses xelatex; adjust as needed for your document
 
     - name: Compile LaTeX document
       run: latexmk -pdf -outdir=resume resume/resume_template.tex
