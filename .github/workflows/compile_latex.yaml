@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - resume/resume_template.tex
+  workflow_dispatch: # This allows the workflow to be manually triggered
 
 jobs:
   build:
