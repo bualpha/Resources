@@ -1,5 +1,5 @@
 # Resume template
 
 
-![Resume Template](./resume_template.pdf)
+![Resume Template](resume_template.pdf)
 
