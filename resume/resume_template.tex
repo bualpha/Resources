@@ -1,0 +1,186 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3} % edit hyperlink color here
+\hypersetup{colorlinks,breaklinks,linkcolor=darkblue,urlcolor=darkblue,anchorcolor=darkblue,citecolor=darkblue}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EVERYTHING IS CUSTOMIZEABLE IN LATEX, PLAY AROUND!
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge FIRST LAST} & Email: {generic@gmail.com}\\
+  LinkedIn: in/XYZ $\mid$
+  GitHub: @XYZ & Mobile: XYZ \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+        
+    \textbf {University} \hfill GradMonth Year 
+
+    \textit { BA: MostRelevantMajor and Major2, Minor in Minor1. GPA: 3.5+/4.0 (leave out if below)}
+    
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+    \item \textbf{Coursework:} Relevant coursework only. Fill up space with programming language in parenthesis e.g. Data Structures (Java). Less is more, don't overflow! Education on top because you're a new grad / student
+    \item \underline{\textit {Leadership:}} RelevantClub1 (Role), RelevantClub2 (Role), Non relevant roles are ok too. Don't overfill it
+
+    \end{itemize}
+    
+    \vspace{-5pt}
+    
+%-----------EXPERIENCE-----------------
+\section{Work Experiences} 
+% Can try to spin as "Relevant Experiences" or just "Experiences" if your school has a practicum course where you work directly with clients.
+    
+    \textbf {Tech Company} \hfill Location, XYZ
+    
+    \textit { Data Scientist Intern} \hfill \textit {Month Year -- Month Year}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+
+        \item What is the business impact? Focus on metrics and mention tech stack if space allows
+        \item Mention your awards and accomplishments at work. E.g. Team received award (1/100) at company hackathon
+        \item Use Google's XYZ template: "Accomplished [X] as measured by [Y], by doing [Z]"
+        \item E.g. Expedited client onboarding process for voice biometrics service by optimizing data extraction from 5 to 1 min./file using Python. Project deployed immediately to identify $\sim$50 new customers and fraudsters for clients
+        \item \textit {\underline{Certifications/Conferences:}} Hyperlinks when available %\href{LINK}{TEXT}
+        
+    \end{itemize}
+    
+    \vspace{2.25mm}
+
+    \textbf {Financial Services Company} \hfill Location, XYZ
+    
+    \textit { Software Engineer Intern} \hfill \textit {Month Year -- Month Year}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+        \item Keep everything concise. Max of 4 or 5 lines / bullet points. No one wants to read a resume that is too verbose 
+        \item No "a, the". NBD, but no periods at the end of sentence. Save space
+        \item How to be concise? Think optimization: You have \$1000, every character costs \$1. Stay within your budget
+    \end{itemize}
+
+    \vspace{2.25mm}
+    
+    \textbf {School / Club Job} \hfill Location, XYZ
+    
+    \textit { Web Developer}
+    \hfill \textit {Month Year -- Month Year}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+        \item Tip: if you have a lot of other experiences, comment out less relevant roles in \LaTeX for use later
+        \item For example, when applying to DS job in medicine -- use your data analyst intern experience in lieu of finance exp
+    \end{itemize}
+    
+    \vspace{-5pt}
+    
+% ---------
+\section{Research \& Labs (probably "Project" section for most people)}
+% If you have extensive research and lab experience, you may use this section for that. Projects can be a separate section (example two sections below).
+
+    \textbf {Professor Group @University (Specialty)} \hfill Location, XYZ
+    
+    \textit { Undergraduate Researcher}
+    \hfill \textit {Month Year -- Present}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+        \item \textbf{\{Stealth\}} Very high level if you cannot talk about what you are working on
+
+    \end{itemize}
+    
+    \vspace{2.5mm}
+
+    \textbf {E.g. Smith Group @BU (ML)} \hfill Location, XYZ
+    
+    \textit { Machine Learning Researcher}
+    \hfill \textit {Month Year -- Month Year}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+        \item How did you contribute to the project? \textit{\underline{Paper in progress}}
+        \item Not everything has to be in 3 bullet points. If you did not do a lot of work, don't try to come up with some BS just to fill up bullet points
+        \item Move relevant bullet points on top. If the recruiter don't see what they like in the beginning, your resume goes into the trash. Psychologically, humans read beginning and end. Use that to your advantage
+    \end{itemize}
+    
+    \vspace{2.25mm}
+    
+    \textbf {University Lab} \hfill Location, XYZ
+    
+    \textit { Lab Intern}
+    \hfill \textit {Month Year -- Month Year}
+    \begin{itemize}[noitemsep, nolistsep]
+    \renewcommand\labelitemi{\scriptsize$\bullet$}
+        \item The goal of a resume is to get you an interview. Resume is 40\% for recruiter, 60\% for hiring manager. Recruiters scan for keywords. If the hiring manager is interested, they will ask you for specifics and you can impress them then
+        \item I ran a poll on Blind, and majority of ppl don't want to see bolded keywords
+        \item\textit {\underline{Papers:}} Published papers with hyperlinks. Remove if you need the extra space
+    \end{itemize}
+    
+    \vspace{-5pt}
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills \& Selected Honors (You may move this section above projects if you want)}
+     \textbf{Programming:} {Python (numpy, pandas, scikit-learn), R, SQL, C, C++, Java, HTML, Bash, \LaTeX, etc.}
+
+    \textbf{Tools:} {Tailor to job descriptions. E.g. if JD says Jupyter Notebook, put Jupyter Notebook, not Jupyter.}
+          
+     \textbf{Awards:} {\textbf{$1^{st}$} in Hackathon1 '22, Finalist in Hackathon2 '23, Merit Scholarship (full tuition, \$Amount). Move up if less exp}
+
+    \textbf{Awards not so important:} {If u have a lot of exp. w/ Databases and Big Data tools, have separate section for Data / ML}
+    
+    \vspace{-5pt}
+    
+%--------PROJECTS------------
+\section{Projects}
+
+% Tip: Again, have multiple projects on here commented out, so it is easy to add and remove. Hyperlinks to GitHub or presentation when available. It is also easy to put keywords here.
+
+    % \textbf{Test Project} {R, EDA, Regressions, Random Forest, XGBoost}
+          
+     \href{https://calendly.com/nie-ryanz}{\textbf{Project1 with a URL (notice its dark blue):}} {Python, EDA, Long Short-Term Memory, Decision Trees, Time Series}
+     
+     \href{https://calendly.com/nie-ryanz}{\textbf{Project2 with a URL:}} {MongoDB, Express, React, Node, Javascript, HTML, RESTful API}
+
+     \textbf{XYZ Lab -- Some research project you worked on:} {R, Excel, Statistics. Great place for keywords!}
+
+%-------------------------------------------
+\end{document}
+
+% Credits and Notes
+% This template was inspired by a template I found on Overleaf. Unfortunately, I cannot find it anymore, so let me know if you know the original author.
+% This is just a template, you can change it up however you want. This works well with ATS and only require minimal edits on Workday.
+% Good luck on your job search! Remember, all it takes is one yes.
