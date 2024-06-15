@@ -16,7 +16,10 @@ jobs:
       
     - name: Install TeX Live
       run: sudo apt-get update && sudo apt-get install -y texlive-full
-
+      
+    - name: Install ImageMagick
+      run: sudo apt-get install -y imagemagick
+      
     - name: Set up LaTeX environment
       uses: xu-cheng/latex-action@v2
       with:
@@ -25,12 +28,15 @@ jobs:
     - name: Compile LaTeX document
       run: latexmk -pdf -outdir=resume resume/resume_template.tex
 
+    - name: Convert PDF to PNG
+      run: convert -density 150 resume/resume_template.pdf -quality 90 resume/resume_template.png
+      
     - name: Commit and push generated PDF
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add resume/resume_template.pdf
-        git commit -m 'Generate resume_template.pdf'
+        git add resume/resume_template.pdf resume/resume_template.png
+        git commit -m 'Generate resume_template.pdf resume/resume_template.png'
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
