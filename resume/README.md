@@ -1,4 +1,3 @@
 # Resume template
 
-![Resume Template](./resume_template.png)
-
+<img src="./resume_template.png" alt="Resume Template" style="width:50%;">
