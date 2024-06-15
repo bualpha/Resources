@@ -1,4 +1,4 @@
-name: Generate Resume PDF
+name: Generate Resume PDF and PNG
 
 on:
   push:
@@ -14,11 +14,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       
-    - name: Install TeX Live
-      run: sudo apt-get update && sudo apt-get install -y texlive-full
-      
-    - name: Install ImageMagick
-      run: sudo apt-get install -y imagemagick
+    - name: Install TeX Live and ImageMagick
+      run: |
+        sudo apt-get update && sudo apt-get install -y texlive-full
+        sudo apt-get install -y imagemagick
       
     - name: Set up LaTeX environment
       uses: xu-cheng/latex-action@v2
@@ -27,6 +26,9 @@ jobs:
 
     - name: Compile LaTeX document
       run: latexmk -pdf -outdir=resume resume/resume_template.tex
+      
+    - name: Set ImageMagick policy delegate
+      run: sudo sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/g' /etc/ImageMagick-6/policy.xml
 
     - name: Convert PDF to PNG
       run: convert -density 150 resume/resume_template.pdf -quality 90 resume/resume_template.png
