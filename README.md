@@ -1,6 +1,6 @@
 # Resources
 
-*Last resource added: Dec 1, 2023.*
+*Last resource added: Mar 21, 2025.*
 
 | General  | Description  |
 |---|---|
@@ -30,7 +30,7 @@
 | [Statquest](https://www.youtube.com/@statquest) | One of the best educational YouTube channel on learning statistics, data science, and machine learning. |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | A free, online, self-paced course from MIT. Teaches the terminal, bash, git, and other miscellaneous things that you typically don't learn in school, but can be useful to know prior to your tech/quant internships. |
 | [Seeing Theory](https://seeing-theory.brown.edu/) | Great interactive visualizations for concepts in probability and statistics. |
-
+| [Very Normal](https://www.youtube.com/@very-normal) | Very clear and in depth YouTube videos about statistics. |
 
 *Note: Feel free to look around the GitHub page. There are various resources from past years as well.*
 
