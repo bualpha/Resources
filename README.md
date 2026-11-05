@@ -64,13 +64,14 @@ Here are some upper level courses to take at BU.
 
 ## Contributions
 
-You must use the same format as previously added resources.
+Direct pull requests are welcome; you do not need to open an issue first. Fork this repository, make your change, and open a pull request against `main`.
+
+When adding a resource, use the same format as the existing entries:
 
 `Resource` - Short name of resource, with embedded link \
 `Description` - Short description of resource, what it can be used for
 
-### Contributing via Issues
-You may submit resources or anything you find useful via GitHub issues. Please follow the template above and use the example issue as a guide.
+Please include a short explanation of why the resource belongs. If you have a suggestion but do not want to make the edit, you can still open an issue using the format above.
 
 ## Issues
 If you spot a problem with the resources (i.e. outdated, bad link, etc.), please open a new issue and label it as either `bug` or `invalid`.
